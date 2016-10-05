@@ -9,5 +9,6 @@ Notes:
 * We were required to submit a solution using a divide and conquer strategy.
 * If I recall correctly, we needed to handle datasets of up to 10,000,000 points within 5 seconds.
 * I didn't know it at the time, but this is one of the problems examined in Cormen's *Algorithms* book.
-* It turns out I used the correct approach, but I needed to "merge" across one more dimension, so performance isn't quite as good as it could be (it's pretty close though).
+* It turns out I used the correct approach, but I needed to "merge" across one more dimension, so performance isn't quite as good as it could be. It's pretty close though--roughly O(n log(n))
+* I would ordinarily refrain from writing 13 nested ternaries; in this case it was part of an inside joke with the professor teaching the course.
 
